@@ -1,3 +1,5 @@
+mod p2p;
+
 use chrono::Utc;
 use libp2p::multihash::Code::Sha2_256;
 use log::{error, info, warn};
